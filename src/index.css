@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-bangla-sans: 'Hind Siliguri', sans-serif;
+    --font-bangla-serif: 'Noto Serif Bengali', 'Kalpurush', 'SutonnyMJ', serif;
+  }
+  body {
+    font-family: var(--font-bangla-sans);
+  }
+}
+
+.font-bangla-serif {
+  font-family: 'Noto Serif Bengali', 'Kalpurush', 'SolaimanLipi', Georgia, serif;
+}
+
+.font-bangla-sans {
+  font-family: 'Hind Siliguri', 'Kalpurush', sans-serif;
+}
+
+/* Print Styles for Bangladeshi Board & College Exam Paper */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .a4-exam-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 8mm 12mm !important;
+    width: 100% !important;
+    max-width: none !important;
+    background: white !important;
+    color: black !important;
+  }
+  .dual-col {
+    column-count: 2 !important;
+    column-gap: 8mm !important;
+    column-rule: 1px solid #000000 !important;
+  }
+  .page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+}

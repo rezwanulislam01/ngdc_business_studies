@@ -1,0 +1,6 @@
+{
+  "name": "নওহাটা সরকারি ডিগ্রি কলেজ - প্রশ্নপত্র প্রস্তুতকারক",
+  "description": "নওহাটা সরকারি ডিগ্রি কলেজ এর নির্বাচনী ও অর্ধবার্ষিক পরীক্ষার সৃজনশীল প্রশ্নপত্র প্রস্তুত, সরাসরি সম্পাদনা এবং Word (.docx) ও PDF এক্সপোর্টার।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
